@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="720dp"
+    android:background="@color/background"
+    tools:context=".EditProfileDetails">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/gradient_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/but_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_editProfileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Edit Profile Details"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <EditText
+        android:id="@+id/et_profileName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/form_field_background"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editProfileTitle" />
+
+    <EditText
+        android:id="@+id/et_profileUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/form_field_background"
+        android:hint="Enter your username"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_profileName"
+        app:layout_constraintStart_toStartOf="@+id/et_profileName"
+        app:layout_constraintTop_toBottomOf="@+id/et_profileName" />
+
+    <EditText
+        android:id="@+id/et_profilePhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/form_field_background"
+        android:ems="10"
+        android:hint="Enter your phone number"
+        android:inputType="text|phone"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_profileUsername"
+        app:layout_constraintStart_toStartOf="@+id/et_profileUsername"
+        app:layout_constraintTop_toBottomOf="@+id/et_profileUsername" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_editProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/button_bg"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_profilePhone"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/tv_profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/et_profileName"
+        app:layout_constraintStart_toStartOf="@+id/et_profilePhone" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Username"
+        app:layout_constraintBottom_toTopOf="@+id/et_profileUsername"
+        app:layout_constraintStart_toStartOf="@+id/et_profileUsername" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Phone number"
+        app:layout_constraintBottom_toTopOf="@+id/et_profilePhone"
+        app:layout_constraintStart_toStartOf="@+id/et_profilePhone" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile_picture"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_profile_pic"
+        app:civ_border_color="@color/green"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editProfileTitle" />
+
+    <TextView
+        android:id="@+id/tv_changeProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change profile picture"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_profile_picture"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/iv_profile_picture"
+        app:layout_constraintTop_toBottomOf="@+id/iv_profile_picture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

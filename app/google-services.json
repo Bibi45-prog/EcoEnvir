@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335714643539",
+    "firebase_url": "https://ecoenvir-66d60-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ecoenvir-66d60",
+    "storage_bucket": "ecoenvir-66d60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335714643539:android:02780df06dee9dfd0aa0a6",
+        "android_client_info": {
+          "package_name": "com.example.ecoenvir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335714643539-kgnallrstnsgdi5gda83hbaq087ur1tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZjsrA-BaTUijZ4WAg3P13goupmEeKwp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335714643539-kgnallrstnsgdi5gda83hbaq087ur1tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

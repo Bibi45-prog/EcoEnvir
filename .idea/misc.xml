@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/drawable/background_rounded.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/drawable/gradient.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/drawable/gradient_bg.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/drawable/white_button.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_password_request_success.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_question.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_quiz.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_score.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/homepage.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/info.xml" value="0.17552083333333332" />
+        <entry key="..\:/AndroidStudioThings/EcoEnvir/app/src/main/res/layout/recycle.xml" value="0.17447916666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/background_rounded.xml" value="0.2703125" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/button_bg.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/form_field_background.xml" value="0.13958333333333334" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/frame.xml" value="0.2703125" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/gradient_bg.xml" value="0.14635416666666667" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_aj_recycling_symbol.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/rounded_photo.xml" value="0.1712962962962963" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/vie_bg.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/drawable/white_button.xml" value="0.1" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_login.xml" value="0.395" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_navigation.xml" value="0.1" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_password_request_success.xml" value="0.12916666666666668" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_webview4.xml" value="0.13177083333333334" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/activity_webview5.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/change_password.xml" value="0.264" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/fragment_edit_profile_details.xml" value="0.536" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/fragment_signup.xml" value="0.264" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/fragment_update_email.xml" value="0.1" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/homepage.xml" value="0.264" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/info.xml" value="0.176" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/profile.xml" value="0.4" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/profile2.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/recycle.xml" value="0.11927083333333334" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/recycle_request_history_layout.xml" value="0.4" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/request_history_fragment.xml" value="0.2" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/layout/reward_history_layout.xml" value="0.4" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/menu/bottomnavigation.xml" value="0.11927083333333334" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/Android_Practical/EcoEnvir/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/drawable/calendar.xml" value="0.2890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.271875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/drawable/ic_time_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_sign_up.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_edit_profile_details.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_help_page.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_item_description.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_request_successful1.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_select_delivery_method1.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_update_email.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/layout/recycle.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/menu/bottomnavigation.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NewProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/drawable/background_rounded.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/drawable/button_bg.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/drawable/circle.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/drawable/container.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/drawable/transparent_bg_bordered.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/activity_reward.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/activity_reward_history.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/faq.xml" value="0.17910447251321387" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/fragment_help_page.xml" value="0.35820894502642775" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/fragment_rewards.xml" value="0.35820894502642775" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/fragment_rewards_history.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/fragment_update_email.xml" value="0.12228260869565218" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/homepage.xml" value="0.4799999863354132" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/info.xml" value="0.1" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/profile.xml" value="0.35820894502642775" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/recycle.xml" value="0.13768115942028986" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/recycle_request_history_layout.xml" value="0.4799999863354132" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/request_history_fragment.xml" value="0.35820894502642775" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/request_history_layout.xml" value="0.2364179037174423" />
+        <entry key="..\:/Users/maxim/OneDrive/Desktop/EcoEnvir/app/src/main/res/layout/rewards_list_layout.xml" value="0.4799999863354132" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

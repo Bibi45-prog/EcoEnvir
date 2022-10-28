@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="413dp"
+        android:layout_height="201dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gradient_bg" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="238dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32"
+        app:srcCompat="@drawable/recycle_category" />
+
+    <ImageView
+        android:id="@+id/btnBack6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="323dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="24dp"
+        android:text="What do you want to recycle today?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgGlass"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/group_13" />
+
+    <ImageView
+        android:id="@+id/imgWaste"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgBatteries"
+        app:layout_constraintStart_toEndOf="@+id/imgMetal"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/group_4" />
+
+    <ImageView
+        android:id="@+id/imgMixed"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGlass"
+        app:srcCompat="@drawable/group_6" />
+
+    <ImageView
+        android:id="@+id/imgLightBulbs"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPaper"
+        app:srcCompat="@drawable/group_7" />
+
+    <ImageView
+        android:id="@+id/imgOrganic"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgMixed"
+        app:layout_constraintStart_toEndOf="@+id/imgLightBulbs"
+        app:layout_constraintTop_toBottomOf="@+id/etPlastic"
+        app:srcCompat="@drawable/group_8" />
+
+    <ImageView
+        android:id="@+id/imgPlastic"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgGlass"
+        app:layout_constraintStart_toEndOf="@+id/imgPaper"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/group_10" />
+
+    <ImageView
+        android:id="@+id/imgBatteries"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMixed"
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/group_5" />
+
+    <ImageView
+        android:id="@+id/imgPaper"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/group_2" />
+
+    <ImageView
+        android:id="@+id/imgMetal"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLightBulbs"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/group_3" />
+
+    <TextView
+        android:id="@+id/etPaper"
+        android:layout_width="41dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Paper"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/imgPaper"
+        app:layout_constraintTop_toBottomOf="@+id/imgPaper" />
+
+    <TextView
+        android:id="@+id/etPlastic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Plastic"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/imgPlastic"
+        app:layout_constraintTop_toBottomOf="@+id/imgPlastic" />
+
+    <TextView
+        android:id="@+id/etGlass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="Glass"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imgGlass"
+        app:layout_constraintTop_toBottomOf="@+id/imgGlass" />
+
+    <TextView
+        android:id="@+id/etLightBulbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Light Bulbs"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/imgLightBulbs"
+        app:layout_constraintTop_toBottomOf="@+id/imgLightBulbs" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Organic"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/imgOrganic"
+        app:layout_constraintTop_toBottomOf="@+id/imgOrganic" />
+
+    <TextView
+        android:id="@+id/etMixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        android:text="Mixed"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imgMixed"
+        app:layout_constraintTop_toBottomOf="@+id/imgMixed" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Metal"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/imgMetal"
+        app:layout_constraintTop_toBottomOf="@+id/imgMetal" />
+
+    <TextView
+        android:id="@+id/etWaste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:text="E-waste"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imgWaste"
+        app:layout_constraintTop_toBottomOf="@+id/imgWaste" />
+
+    <TextView
+        android:id="@+id/etBatteries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Batteries"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imgBatteries"
+        app:layout_constraintTop_toBottomOf="@+id/imgBatteries" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="432dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

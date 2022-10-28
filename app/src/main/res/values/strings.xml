@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EcoEnvir</string>
+    <string name="api_key">186dbe5159c649c2a105ded7ccc02133</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">907785243196611</string>
+    <string name="fb_login_protocol_scheme">fb907785243196611</string>
+    <string name="hh_mm">HH:MM</string>
+
+</resources>
